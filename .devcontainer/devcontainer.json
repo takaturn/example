@@ -26,8 +26,8 @@
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"installZsh": true,
 			"configureZshAsDefaultShell": true,
-			"installOhMyZsh": false,
-			"installOhMyZshConfig": false,
+			"installOhMyZsh": true,
+			"installOhMyZshConfig": true,
 			"username": "vscode",
 			"userUid": "1000",
 			"userGid": "1000",
@@ -44,7 +44,7 @@
 			"version": "os-provided",
 			"ppa": false
 		},
-		"ghcr.io/devcontainers/features/docker-in-docker": {}
+		// "ghcr.io/devcontainers/features/docker-in-docker": {}
 	},
 
 	// 5. Configure tool-specific properties.
