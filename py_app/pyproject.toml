@@ -1,0 +1,17 @@
+[project]
+name = "py-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "takaturn", email = "takaturn@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+py-app = "py_app:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
